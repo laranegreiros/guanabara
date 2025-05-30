@@ -1,0 +1,5 @@
+pergunta = str(input('me fale um numero de 1 a 9999 : '))
+print('milhar: {}'.format(pergunta[0:1])) 
+print('centena: {}'.format(pergunta[1:2])) 
+print('dezena : {}'.format(pergunta[2:3])) 
+print('unidade : {}'.format(pergunta[3:4]))
